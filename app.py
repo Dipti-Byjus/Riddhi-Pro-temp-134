@@ -8,7 +8,7 @@ def home():
     return render_template('index.html')
 
 
-@app.route('/predict' , methods = ['POST'])
+@app.route('/predict' , methods = [''])
 def predict():
 
     response = ""
