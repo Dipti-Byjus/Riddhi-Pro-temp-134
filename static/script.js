@@ -1,8 +1,7 @@
 $(document).ready(function(){
     console.log('Ready')
 
-    let date_time = new Date()
-    let current_date = date_time.toLocaleDateString()
+   
 
     $('#date').text("Date : " + current_date)
 
